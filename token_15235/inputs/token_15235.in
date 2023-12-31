@@ -1,0 +1,9 @@
+// The program input for token_15235/src/main.leo
+[mint]
+balance: u32 = 100u32;
+
+[transfer]
+reeiver: address = ;
+amount: u32 = 10u32;
+input: Token = Token{
+};

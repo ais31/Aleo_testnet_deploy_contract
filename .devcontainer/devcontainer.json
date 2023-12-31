@@ -1,0 +1,20 @@
+{
+    "name": "Rust",
+    "dockerFile": "../Dockerfile",
+  
+    // コンテナ内での追加の設定。コンテナ開いたときに実行されるターミナルのshellを指定する
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+  
+    // Rust拡張機能のインストール
+    "extensions": [
+      "rust-lang.rust"
+    ],
+  
+    // コンテナ内で公開されるポート
+    "forwardPorts": [8000],
+  
+    // 他の設定...
+  }
+  
